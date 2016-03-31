@@ -4,4 +4,36 @@ body {
 
 .container {
   width: 1100px;
+  margin: 0px auto;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+nav {
+  background-color: #FA6938;
+}
+
+nav ul {
+    padding: 7px 93px;
+    margin: 0px;
+
+}
+
+.nav li {
+  display: inline-block;
+  list-style: none;
+}
+
+.nav li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+body > div > header > nav > ul > li.brand > a {
+  padding: 4px;
+  background-color: #C7532C;
+  border-radius: 4px;
 }
