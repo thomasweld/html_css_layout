@@ -1,5 +1,8 @@
-body {
 
+/*GLOBAL STYLES*/
+
+body {
+  font-family: font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -7,33 +10,158 @@ body {
   margin: 0px auto;
 }
 
+.inner-container {
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
 ul {
   padding-left: 0px;
 }
 
-nav {
+/*HEADER STYLES*/
+
+.deals {
   background-color: #FA6938;
 }
 
-nav ul {
-    padding: 7px 93px;
+.deals ul {
+    padding: 5px 0px 10px 0px;
     margin: 0px;
 
 }
 
-.nav li {
+.deals_list li {
   display: inline-block;
   list-style: none;
 }
 
-.nav li a {
+.deals_list li a {
   color: #FFFFFF;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
+  letter-spacing: .5px;
+  padding: 0px 6px;
 }
 
-body > div > header > nav > ul > li.brand > a {
-  padding: 4px;
+body > div > header > div.deals > div > ul > li.free_ship > a {
+  padding: 4px 6px;
   background-color: #C7532C;
   border-radius: 4px;
+  font-size: 10px;
 }
+
+.logo img {
+  width: 110px;
+}
+
+nav {
+  overflow: auto;
+}
+.nav-links, .logo, .nav-links li {
+  float: left;
+}
+
+.nav-links {
+  padding-left: 52px;
+}
+
+div.nav-links > ul {
+    margin-top: 12px;
+}
+
+.nav-links li {
+  list-style: none;
+  margin-top: 28px;
+  padding: 0px 10px;
+  font-size: 23px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+}
+
+.cart {
+  width: 72px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 115px;
+  border-radius: 4px;
+  border: 2px lightgray solid;
+  color: gray;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.cart_img {
+	background: url('../img/sprite@2x.png') no-repeat -90px -32px;
+	width: 28px;
+	height: 26px;
+  zoom: .5;
+  float: left;
+  margin: 6px 8px 6px 6px;
+}
+
+.cart_text {
+  float: left;
+  padding: 3px;
+}
+
+.cart_number {
+  float: left;
+  background-color: #95999e;
+  color: white;
+  border-radius: 4px;
+  padding: 3px 5px;
+  position: absolute;
+  margin-left: 54px;
+}
+
+.cart_number::after{
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 8px 4px 0;
+  border-color: transparent #95999e transparent transparent;
+  position: absolute;
+  clear: both;
+  left: -6px;
+  top: 6px;
+}
+
+
+/*search */
+
+.search-outer {
+  float: left;
+  margin-top: 40px;
+  width: 130px;
+  margin-left: 10px;
+  line-height: 22px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 1px 3px rgba(140,140,140,0.6);
+  -moz-box-shadow: 0px 0px 1px 3px rgba(140,140,140,0.6);
+  box-shadow: 0px 0px 1px 3px rgba(140,140,140,0.6);
+}
+
+.search-icon {
+  float: left;
+  background: url('../img/sprite@2x.png') no-repeat -30px 0;
+  width: 26px;
+  height: 26px;
+  margin: 10px;
+  zoom: .6;
+}
+
+input[type=search] {
+    width: 100px;
+    float: right;
+    margin-top: 2px;
+    border: none;
+}
+
+.login
