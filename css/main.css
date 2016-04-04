@@ -19,6 +19,18 @@ ul {
   padding-left: 0px;
 }
 
+li {
+  list-style: none;
+}
+
+button {
+    background-color: #33A1FF;
+    color: #ffffff;
+    border: 1px blue solid;
+    border-radius: 2px;
+    margin: 4px 0px;
+}
+
 /*HEADER STYLES*/
 
 .deals {
@@ -33,7 +45,6 @@ ul {
 
 .deals_list li {
   display: inline-block;
-  list-style: none;
 }
 
 .deals_list li a {
@@ -71,7 +82,6 @@ div.nav-links > ul {
 }
 
 .nav-links li {
-  list-style: none;
   margin-top: 28px;
   padding: 0px 10px;
   font-size: 23px;
@@ -189,7 +199,6 @@ input[type=search] {
 }
 
 .hero li {
-  list-style: none;
   padding-right: 26px;
   float: left;
   margin-top: -44px;
@@ -280,9 +289,129 @@ input[type=search] {
   text-decoration: none;
 }
 
-.card-section {
-  border-image: url('../img/hatch-light@2x.png') 14 14 round;
+/*.card-section {
+  border: 4px;
+  border-image: url('../img/hatch-light@2x.png') 14 14 repeat;
   border-top: 0;
   border-left: 0;
   border-right: 0;
+}*/
+
+/*  GRID4 SECTION */
+
+.grid4-section {
+  overflow: auto;
+  border-image: url('../img/perforated-bottom@2x.png') 14 14 round;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+}
+
+.grid4-item {
+  width: 200px;
+  height: 200px;
+  background-color: #FFFFFF;
+  float: left;
+  margin: 20px 12px;
+  font-size: 12px;
+}
+
+.grid4-item li {
+  float: left;
+}
+
+.grid4-item h3 {
+  font-size: 18px;
+}
+
+
+.grid4-item img {
+  width: 100%;
+  height: auto;
+}
+
+.grid4-item a {
+  color: #0088FF;
+  text-decoration: none;
+}
+
+.facebook {
+  background: url('../img/sprite@2x.png') no-repeat -540px 0;
+  width: 70px;
+  height: 70px;
+  zoom: .4;
+  padding-right: 18px;
+}
+
+.pinterest {
+  background: url('../img/sprite@2x.png') no-repeat -540px -80px;
+  width: 70px;
+  height: 70px;
+  zoom: .4;
+  padding-right: 18px;
+}
+
+.twitter {
+  background: url('../img/sprite@2x.png') no-repeat -540px -160px;
+  width: 70px;
+  height: 70px;
+  zoom: .4;
+  padding-right: 18px;
+}
+
+/*  FOOTER  */
+
+footer {
+  overflow: auto;
+  background-color: #F4F4F4;
+}
+
+.footer-links li {
+    font-size: 12px;
+}
+
+.footer-links h4 {
+    font-size: 12px;
+    line-height: 0px;
+    color: black;
+}
+
+.link-list {
+  float: left;
+  margin-right: 20px;
+  margin-top: 22px;
+  color: grey;
+}
+
+.contact {
+  float: right;
+  border: 1px #A2AFC0 solid;
+  background-color: #A2AFC0;
+  border-radius: 2px;
+  margin: 16px 40px;
+  padding: 12px;
+  color: #FFFFFF;
+  width: 234px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contact h2 {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 0px;
+}
+
+.contact a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.details {
+  clear: both;
+  font-size: 10px;
+  color: grey;
+}
+
+.contact button {
+  float: right;
 }
