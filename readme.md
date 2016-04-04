@@ -1,4 +1,6 @@
-## Tie store project
+## Hard Mode - Tie store project
+
+https://github.com/thomasweld/html_css_layout
 
 ##### Create HTML / CSS layout from image mockup
 
